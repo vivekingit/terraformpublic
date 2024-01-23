@@ -27,3 +27,4 @@ resource "azurerm_virtual_network" "vpvnet" {
     security_group = azurerm_network_security_group.vpnsg.id
   }
 }
+#THis code is for vnet
